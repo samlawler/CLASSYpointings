@@ -1,0 +1,88 @@
+# This is the OSSOS survey description file.
+#
+# All lines starting with '#' are ignored, so they are used for comments
+#
+# Each data line has the format:
+# <width> <height> <RA> <DEC> <epoch> <filling_factor> <tracked_fraction> \
+#   <obs_code> <efficiency_file_name>
+#
+# <width>: width of FOV, in degree
+# <height>: height of FOV, in degree
+# <RA>: Right Ascension of pointing, decimal degree or HH:MM:SS[.ss...]
+# <DEC>: Declination of pointing, decimal degree or DD:MM:SS[.ss...]
+# <epoch>: epoch of pointing, in Julian day (decimal)
+# <filling_factor>: filling factor of that FOV
+# <obs_code>: observatory code
+# <efficiency_file_name>: name of efficiency file for that pointing
+#
+# For Megaprime, the 36 CCDs are 2048x4612 with pixels 0.18689x0.18689", so
+# assuming a total footprint of 1 sq.deg, the filling factor is 0.9164
+#
+#
+#TESTING THIS IS ALL MADE UP
+poly 4 23:14:00 -04:35:14.9579 2459817.9583333335 0.90 500 AS1.eff
+-0.5 -0.5
+-0.5 0.5
+0.5 0.5
+0.5 -0.5
+poly 4 23:18:00 -04:11:08.2373 2459847.9583333335 0.90 500 AS2.eff
+-0.5 -0.5
+-0.5 0.5
+0.5 0.5
+0.5 -0.5
+poly 4 05:06:00 +21:17:56.5745 2459906.9583333335 0.90 500 ND1.eff
+-0.5 -0.5
+-0.5 0.5
+0.5 0.5
+0.5 -0.5
+poly 4 05:10:00 +21:22:58.339 2459936.9583333335 0.90 500 ND2.eff
+-0.5 -0.5
+-0.5 0.5
+0.5 0.5
+0.5 -0.5
+poly 4 14:58:00 -15:41:17.4032 2460053.9583333335 0.90 500 AM1.eff
+-0.5 -0.5
+-0.5 0.5
+0.5 0.5
+0.5 -0.5
+poly 4 15:02:00 -15:57:05.5937 2460083.9583333335 0.90 500 AM2.eff
+-0.5 -0.5
+-0.5 0.5
+0.5 0.5
+0.5 -0.5
+poly 4 20:54:00 -16:12:52.817 2460142.9583333335 0.90 500 JA1.eff
+-0.5 -0.5
+-0.5 0.5
+0.5 0.5
+0.5 -0.5
+poly 4 20:58:00 -15:57:21.6503 2460172.9583333335 0.90 500 JA2.eff
+-0.5 -0.5
+-0.5 0.5
+0.5 0.5
+0.5 -0.5
+poly 4 06:46:00 +21:27:13.6002 2460290.9583333335 0.90 500 DJ1.eff
+-0.5 -0.5
+-0.5 0.5
+0.5 0.5
+0.5 -0.5
+poly 4 06:50:00 +21:23:03.2831 2460320.9583333335 0.90 500 DJ2.eff
+-0.5 -0.5
+-0.5 0.5
+0.5 0.5
+0.5 -0.5
+poly 4 12:40:00 -03:59:46.4715 2460379.9583333335 0.90 500 MA1.eff
+-0.5 -0.5
+-0.5 0.5
+0.5 0.5
+0.5 -0.5
+poly 4 12:44:00 -04:21:43.9868 2460408.9583333335 0.90 500 MA2.eff
+-0.5 -0.5
+-0.5 0.5
+0.5 0.5
+0.5 -0.5
+#
+#poly 4 14:15:28.89 -12:32:28.5 2456391.86686 0.90 500 CLASSYmadeup.eff
+#-3.5 -0.434889
+#-3.5  2.565111
+# 3.5  0.473417
+# 3.5 -2.526583
